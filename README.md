@@ -1,4 +1,4 @@
-# private-key-hex-generator-plus
+## private-key-hex-generator-plus
 
 The provided Python code is designed to generate a random private key for cryptographic purposes using the `secrets` module, which is specifically designed for secure random number generation and other cryptographic operations.
 
@@ -18,4 +18,4 @@ Printing the Private Key in Hexadecimal Format: The code then prints the generat
 
 Displaying the Generated Private Key: The final output of the code is the printed line that displays the generated private key in hexadecimal format.
 
-Compared to the previous code that used the random module, this code using the secrets module is more suitable for generating secure cryptographic keys. The secrets module is designed to use secure randomness sources and provides a higher level of security for cryptographic applications.
+Compared to the previous code (private-key-hex-generator) that used the random module, this code using the secrets module is more suitable for generating secure cryptographic keys. The secrets module is designed to use secure randomness sources and provides a higher level of security for cryptographic applications.
